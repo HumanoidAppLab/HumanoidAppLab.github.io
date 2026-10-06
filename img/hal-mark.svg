@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" fill="none">
+  <defs>
+    <linearGradient id="hal-blue" x1="100" y1="300" x2="760" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#051d3a"/>
+      <stop offset=".48" stop-color="#06356c"/>
+      <stop offset="1" stop-color="#0082ff"/>
+    </linearGradient>
+    <linearGradient id="hal-l" x1="1000" y1="365" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06356c"/>
+      <stop offset="1" stop-color="#0078ff"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#hal-blue)" d="M62 4h38c8 0 14 6 14 14v130c0 10 7 16 17 16h195c44 0 62-23 100-73l22-29C477 22 515 0 565 0c55 0 96 27 128 79l153 236c20 30 40 47 63 47h-113c-24 0-39-13-53-35L619 127c-16-24-33-29-54-29-22 0-35 12-49 28l-65 81c-37 46-64 46-101 46H138c-15 0-24 9-24 24v71c0 8-6 14-14 14H14c-8 0-14-6-14-14V62C0 30 27 4 62 4Z"/>
+  <circle cx="565" cy="266" r="56" fill="#0078ff"/>
+  <path fill="url(#hal-l)" d="M858 4h56c16 0 28 12 28 28v179c0 34 17 55 52 55h104c49 0 82 35 82 82 0 8-4 14-12 14H984c-92 0-154-68-154-153V36c0-18 12-32 28-32Z"/>
+</svg>
