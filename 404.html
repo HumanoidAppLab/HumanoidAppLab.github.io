@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <meta name="description" content="That page doesn't exist. Redirecting to Humanoid Application Lab home.">
+  <meta http-equiv="refresh" content="0; url=/">
+  <title>404 — Humanoid Application Lab</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+  <script>
+    if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+      window.location.replace('/');
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="Humanoid Application Lab home">
+      <img class="brand-mark" src="/img/hal.svg" alt="" width="1200" height="380">
+      <span class="brand-name">HUMANOID<span class="brand-sub">APPLICATION LAB</span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="/#readiness">Readiness</a>
+      <a href="/#work">Our focus</a>
+      <a href="/#lab">The lab</a>
+      <a class="nav-contact" href="/#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="not-found wrap" aria-labelledby="not-found-title">
+      <div class="not-found-box">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> 404 / NOT FOUND</p>
+        <h1 id="not-found-title">That page doesn’t <span>exist.</span></h1>
+        <p class="not-found-desc">The page you were looking for could not be found. Automatically redirecting to the homepage.</p>
+        <a class="button" href="/" title="Return to home">Return to home <span aria-hidden="true">↗</span></a>
+        <p class="not-found-subtext">If you are not redirected automatically or have JavaScript disabled, click the button above.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="footer-brand" href="/"><img src="/img/hal.svg" alt="" width="1200" height="380"><span>Humanoid<span class="footer-brand-sub">Application Lab</span></span></a>
+    <p>A branch of <a href="https://www.datarealminc.com/" target="_blank" rel="noopener noreferrer">DataRealm Inc.</a></p>
+    <span class="copyright">© <span id="year">2026</span> Humanoid Application Lab</span>
+    <a class="back-top" href="/">Home <span aria-hidden="true">↗</span></a>
+  </footer>
+</body>
+</html>
