@@ -1,8 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#051d3a"/>
-  <g transform="translate(6 24) scale(.044)" fill="#69b5ff">
-    <path d="M62 4h38c8 0 14 6 14 14v130c0 10 7 16 17 16h195c44 0 62-23 100-73l22-29C477 22 515 0 565 0c55 0 96 27 128 79l153 236c20 30 40 47 63 47h-113c-24 0-39-13-53-35L619 127c-16-24-33-29-54-29-22 0-35 12-49 28l-65 81c-37 46-64 46-101 46H138c-15 0-24 9-24 24v71c0 8-6 14-14 14H14c-8 0-14-6-14-14V62C0 30 27 4 62 4Z"/>
-    <circle cx="565" cy="266" r="56"/>
-    <path d="M858 4h56c16 0 28 12 28 28v179c0 34 17 55 52 55h104c49 0 82 35 82 82 0 8-4 14-12 14H984c-92 0-154-68-154-153V36c0-18 12-32 28-32Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="627 148 184 184" fill="none">
+  <defs>
+    <linearGradient id="lens-rim" x1="675" y1="164" x2="756" y2="319" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d6ebed"/>
+      <stop offset=".17" stop-color="#06182b"/>
+      <stop offset=".57" stop-color="#020d25"/>
+      <stop offset=".85" stop-color="#008bd3"/>
+      <stop offset="1" stop-color="#003975"/>
+    </linearGradient>
+    <radialGradient id="lens-glass" cx=".49" cy=".46" r=".55">
+      <stop stop-color="#a1f5ff"/>
+      <stop offset=".12" stop-color="#13a8f5"/>
+      <stop offset=".38" stop-color="#006aff"/>
+      <stop offset=".68" stop-color="#003a9b"/>
+      <stop offset=".88" stop-color="#011638"/>
+      <stop offset="1" stop-color="#010919"/>
+    </radialGradient>
+    <radialGradient id="lens-light">
+      <stop stop-color="#fffbd0"/>
+      <stop offset=".3" stop-color="#f6ed78" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#7be8ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lens-reflection" x1="719" y1="164" x2="719" y2="239" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#c4eaff" stop-opacity=".2"/>
+    </linearGradient>
+  </defs>
+  <g id="lens">
+    <circle cx="719" cy="240" r="85" fill="url(#lens-rim)"/>
+    <circle cx="719" cy="240" r="78" fill="#020d24"/>
+    <circle cx="719" cy="240" r="73" fill="url(#lens-glass)"/>
+    <path d="M662 284a73 73 0 0 0 113 0" stroke="#49b5f5" stroke-opacity=".48" stroke-width="4"/>
+    <path fill="url(#lens-reflection)" d="M687 172a76 76 0 0 1 64 0l-10 10a62 62 0 0 0-44 0Zm-23 16 9 6a69 69 0 0 0-23 43 77 77 0 0 1 14-49Zm110 0a77 77 0 0 1 14 49 69 69 0 0 0-23-43Z"/>
+    <g stroke="#d5efff" fill="none">
+      <path d="M703 193a43 43 0 0 1 32 0" stroke-width="5"/>
+      <path d="m690 199-5 6m63-6 5 6" stroke-width="4" opacity=".75"/>
+      <path d="M703 207a27 27 0 0 1 32 0m-34 9 4-3m28 0 4 3" stroke-width="2" opacity=".65"/>
+      <path d="M711 217a16 16 0 0 1 16 0m-15 7a12 12 0 0 1 14 0" stroke-width="1.5" opacity=".65"/>
+    </g>
+    <circle cx="719" cy="238" r="17" fill="url(#lens-light)"/>
   </g>
 </svg>
